@@ -1,0 +1,134 @@
+body[data-theme="dark"] {  
+
+   @import '../src/scss/dark-slider.scss';
+
+   .slider-tab {
+      background-color: #0B0C10;
+   }
+
+   .title-styles {
+      color: #45A29E;
+   }
+
+   .header-icon {
+      color: #66FCF1;
+      opacity: 0.8;
+   }
+
+   .slider-image {
+      border: 5px solid #0B0C10;
+   }
+
+   .language {
+      background-color: #0B0C10;
+   }
+
+   .link-href {
+      color: white;
+   }
+
+   .project-date {
+      background-color: #0B0C10;
+      color: #45A29E;
+   }
+
+   header {
+      background-color: #0B0C10;
+      h1 {
+         color: white;
+      }
+   }
+
+   #about {
+      background-color: #1F2833;
+      h1 span {
+         color: white;
+      }
+      .polaroid span {
+         background:  #0B0C10;
+      }
+      .card {
+         background: #0B0C10;
+         color: #66FCF1;
+      }
+   }
+
+   #portfolio {
+      background: #0B0C10;
+      .section-title {
+         color: white !important;
+      }
+      .foto div {
+         background: #1F2833;
+      }
+      .project-title-settings {
+         color: #66FCF1;
+      }
+   }
+
+   #resume {
+      filter: brightness(95%);
+      background: #0B0C10;
+      .section-title {
+         color: white !important;
+      }
+
+      .experience-badge {
+         background: #1F2833 !important;
+         color: #66FCF1;
+      }
+
+      .main-badge {
+         background: #1F2833 !important;
+         color: #66FCF1;
+      }
+
+      .vertical-timeline-element-date {
+         color: #66FCF1;
+         font-weight: bolder;
+      }
+
+      .vertical-timeline-element-icon {
+         background: #1F2833 !important;
+      }
+      @media only screen and (max-width: 1169px) { 
+         .vertical-timeline-element-date {
+            color: #1F2833;
+            font-weight: bolder;
+         }
+      }
+   }
+
+   .modal-inside .modal-content {
+      background: #1F2833;
+      color: #66FCF1;
+      ;
+   }
+
+   .close-icon {
+      color: #66FCF1;
+   }
+
+   .corner-logo {
+      svg {
+      fill: #66FCF1 !important;
+         .octo-banner{
+            fill:#1F2833;
+         }
+      }
+   }
+
+   .skill-icon {
+      color:#66FCF1;
+   }
+
+   footer a,
+footer a:visited {
+	color: #66FCF1;
+}
+
+footer a:hover,
+footer a:focus {
+	color: #66FCF1;
+}
+}

@@ -1,0 +1,188 @@
+{
+    "basic_info": {
+      "description_header": "Hello",
+      "description": "I'm Edgar Salazar. I'm a software engineer with more than 10 years of experience designing and building tailored and customized solutions, based on customer requirements, including government and international projects.",
+      "description1": "Working on all phases of software development life cycle, implementing business solutions using client-focused and agile methodologies. Self-learner and research capability for new technologies with development logic to learn any programming language.",
+      "section_name": {
+        "about": "About me",
+        "projects": "Projects / Clients",
+        "skills": "Skills",
+        "experience": "Experience"
+      }
+    },
+    "projects": [
+      {
+        "title": "CreativeWorks Systems, Inc.",
+        "startDate": "2012",
+        "description": "CreativeWorks is a full service Digital Marketing Agency that specializes in Graphic and Web Design, Web Development and Programming, as well as Internet Marketing. I worked with CreativeWorks for many different proyects and clients for almost 8 years, learning and working many different technologies. ",
+        "images": [
+          "images/portfolio/creative-works/p1.jpg",
+          "images/portfolio/creative-works/p2.jpg",
+          "images/portfolio/creative-works/p3.jpg"
+        ],
+        "url": "https://www.creativeworks.us",
+        "technologies": [
+          {
+            "class": "devicon-javascript-plain",
+            "name": "Javascript"
+          },
+          {
+            "class": "devicon-android-plain",
+            "name": "Android"
+          },
+          {
+            "class": "devicon-apple-plain",
+            "name": "IOS"
+          },
+          {
+            "class": "devicon-php-plain",
+            "name": "PHP"
+          }
+        ]
+      },
+      {
+        "title": "MCC",
+        "startDate": "2017",
+        "description": "Customs software project consulting, as part of the 'Threshold Program' in Guatemala. This program was coordinated through Technical Assistance provided by the U.S. Treasury Office, with the main objective to improve the recaudation in Guatemala.",
+        "images": [
+          "images/portfolio/mcc/p1.jpg",
+          "images/portfolio/mcc/p2.jpg"
+        ],
+        "url": "https://mcc.gov",
+        "technologies": [
+          {
+            "class": "devicon-java-plain",
+            "name": "Java"
+          },
+          {
+            "class": "devicon-angularjs-plain",
+            "name": "AngularJS"
+          },
+          {
+            "class": "devicon-oracle-plain",
+            "name": "Oracle"
+          }
+        ]
+      },
+      {
+        "title": "SAT Guatemala",
+        "startDate": "2009",
+        "description": "Customs software development consulting, working independent new projects execution, participating in all phases of software development life cycle. Project execution with analysis and design of user requirements to generate new definition of solutions and user cases of new projects and new functionalities.",
+        "images": [
+          "images/portfolio/sat/p1.jpg",
+          "images/portfolio/sat/p2.jpg"
+        ],
+        "url": "https://sat.gob.gt",
+        "technologies": [
+          {
+            "class": "devicon-java-plain",
+            "name": "Java"
+          },
+          {
+            "class": "devicon-angularjs-plain",
+            "name": "AngularJS"
+          },
+          {
+            "class": "devicon-oracle-plain",
+            "name": "Oracle"
+          }
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "Freelance",
+        "title": "​Systems Engineer Consultant",
+        "years": "1.2020 - present",
+        "mainTech": [
+          "Front End Developer"
+        ],
+        "technologies": [
+          "REST API",
+          "ReactJS",
+          "JavaScript",
+          "NodeJS",
+          "MaterialUI",
+          "IOS",
+          "NativeScript",
+          "Xcode",
+          "Wordpress"
+        ],
+        "icon": "fa-react"
+      },
+      {
+        "company": "Creative Works",
+        "title": "Senior Software Developer",
+        "years": "11.2012 - 12.2019",
+        "mainTech": [
+          "Web / Mobile Developer"
+        ],
+        "technologies": [
+          "Objective-C",
+          "Android",
+          "PHP",
+          "JavaScript",
+          "XCode",
+          "IOS",
+          "JAVA",
+          "Mysql"
+        ],
+        "icon": "fa-apple"
+      },
+      {
+        "company": "MCC - Millenium Challenge Corporation",
+        "title": "Software Project Consultant",
+        "years": "02.2017 - 12.2018",
+        "mainTech": [
+          "Full Stack Developer"
+        ],
+        "technologies": [
+          "AngularJS",
+          "JAVA",
+          "Spring",
+          "JavaScript",
+          "Hibernate",
+          "Oracle DB",
+          "PL/SQL",
+          "SQL",
+          "REST API",
+          "Tomcat"
+        ],
+        "icon": "fa-angular"
+      },
+      {
+        "company": "SAT Guatemala / SIECA",
+        "title": "Independent IT Consultant",
+        "years": "07.2012 - 12.2016",
+        "mainTech": [
+          "Full Stack Developer"
+        ],
+        "technologies": [
+          "JAVA",
+          "Spring",
+          "Hibernate",
+          "Oracle DB",
+          "PL/SQL",
+          "Faces"
+        ],
+        "icon": "fa-java"
+      },
+      {
+        "company": "SAT Guatemala",
+        "title": "IT Software Analyst",
+        "years": "06.2009 - 07.2012",
+        "mainTech": [
+          "Full Stack Developer"
+        ],
+        "technologies": [
+          "JAVA",
+          "Spring",
+          "Hibernate",
+          "Oracle DB",
+          "PL/SQL",
+          "Faces"
+        ],
+        "icon": "fa-java"
+      }
+    ]
+  }
