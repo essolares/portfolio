@@ -1,6 +1,8 @@
 
 <h2>Portfolio Edgar Salazar</h2>
 
+REACTJS / HTML / SCSS
+
 <h3>:books: Getting started</h3>
 
 1. Clone or fork project.
