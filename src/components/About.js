@@ -1,9 +1,7 @@
 import React from "react";
 import { Icon } from "@iconify/react";
-import angularIcon from "@iconify/icons-logos/angular-icon";
 import reactIcon from "@iconify/icons-logos/react";
 import jsIcon from "@iconify/icons-logos/javascript";
-// npm install --save-dev @iconify/react @iconify-icons/whh
 import javaIcon from '@iconify-icons/whh/java';
 
 
