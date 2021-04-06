@@ -1,0 +1,188 @@
+{
+    "basic_info": {
+      "description_header": "Hola",
+      "description": "Soy Edgar Salazar. Soy un ingeniero de software con más de 10 años de experiencia diseñando y construyendo soluciones personalizadas y a la medida, basadas en los requerimientos del cliente. Incluyendo proyectos gubernamentales e internacionales.",
+      "description1": "He participado en todas las faces del ciclo de vida del desarrollo de software, implementando soluciones de negocios utilizando metodologías ágiles y enfocadas en el cliente. Capacidades de auto-aprendizajee investigación para adquirir nuevas capacidades sobre cualquier lenguaje de programación.",      
+      "section_name": {
+        "about": "Acerca de mi",
+        "projects": "Proyectos / Clientes",
+        "skills": "Conocimiento",
+        "experience": "Experiencia"
+      }
+    },
+    "projects": [
+      {
+        "title": "CreativeWorks Systems, Inc.",
+        "startDate": "2012",
+        "description": "CreativeWorks es una agencia de marketing digital de servicio completo que se especializa en diseño gráfico, desarrollo y programación web, así como marketing en Internet. Trabajé con CreativeWorks para muchos proyectos y clientes diferentes durante casi 8 años, aprendiendo y trabajando muchas tecnologías diferentes. ",
+        "images": [
+          "images/portfolio/creative-works/p1.jpg",
+          "images/portfolio/creative-works/p2.jpg",
+          "images/portfolio/creative-works/p3.jpg"
+        ],
+        "url": "https://www.creativeworks.us",
+        "technologies": [
+          {
+            "class": "devicon-javascript-plain",
+            "name": "Javascript"
+          },
+          {
+            "class": "devicon-android-plain",
+            "name": "Android"
+          },
+          {
+            "class": "devicon-apple-plain",
+            "name": "IOS"
+          },
+          {
+            "class": "devicon-php-plain",
+            "name": "PHP"
+          }
+        ]
+      },
+      {
+        "title": "MCC",
+        "startDate": "2017",
+        "description": "Consultoría de proyectos de software aduanero, como parte del 'Programa Umbral' en Guatemala, este programa fue coordinado a través de la Asistencia Técnica brindada por la Oficina del Tesoro de los Estados Unidos, con el objetivo principal de mejorar la recaudación en Guatemala. ",
+        "images": [
+          "images/portfolio/mcc/p1.jpg",
+          "images/portfolio/mcc/p2.jpg"
+        ],
+        "url": "https://mcc.gov",
+        "technologies": [
+          {
+            "class": "devicon-java-plain",
+            "name": "Java"
+          },
+          {
+            "class": "devicon-angularjs-plain",
+            "name": "AngularJS"
+          },
+          {
+            "class": "devicon-oracle-plain",
+            "name": "Oracle"
+          }
+        ]
+      },
+      {
+        "title": "SAT Guatemala",
+        "startDate": "2009",
+        "description": "Consultoría en desarrollo de software a la medida, trabajé cono desarrollador independiente en ejecución de nuevos proyectos, participando en todas las fases del ciclo de vida del desarrollo de software. Además de participar en ejecución de proyectos incluyendo análisis y diseño de requerimientos para generar nuevas definiciones de soluciones y casos de usuarios como parte de nuevos proyectos y nuevas funcionalidades.",
+        "images": [
+          "images/portfolio/sat/p1.jpg",
+          "images/portfolio/sat/p2.jpg"
+        ],
+        "url": "https://sat.gob.gt",
+        "technologies": [
+          {
+            "class": "devicon-java-plain",
+            "name": "Java"
+          },
+          {
+            "class": "devicon-angularjs-plain",
+            "name": "AngularJS"
+          },
+          {
+            "class": "devicon-oracle-plain",
+            "name": "Oracle"
+          }
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "Freelance",
+        "title": "​Consultor Sistemas Informaticos",
+        "years": "1.2020 - present",
+        "mainTech": [
+          "Desarrollador FrontEnd"
+        ],
+        "technologies": [
+          "REST API",
+          "ReactJS",
+          "JavaScript",
+          "NodeJS",
+          "MaterialUI",
+          "IOS",
+          "NativeScript",
+          "Xcode",
+          "Wordpress"
+        ],
+        "icon": "fa-react"
+      },
+      {
+        "company": "Creative Works",
+        "title": "Desarrollador Senior",
+        "years": "11.2012 - 12.2019",
+        "mainTech": [
+          "Desarrollador Web / Mobile"
+        ],
+        "technologies": [
+          "Objective-C",
+          "Android",
+          "PHP",
+          "JavaScript",
+          "XCode",
+          "IOS",
+          "JAVA",
+          "Mysql"
+        ],
+        "icon": "fa-apple"
+      },
+      {
+        "company": "MCC - Millenium Challenge Corporation",
+        "title": "Consultor de Proyectos de Softwre",
+        "years": "02.2017 - 12.2018",
+        "mainTech": [
+          "Desarrollador Full Stack"
+        ],
+        "technologies": [
+          "AngularJS",
+          "JAVA",
+          "Spring",
+          "JavaScript",
+          "Hibernate",
+          "Oracle DB",
+          "PL/SQL",
+          "SQL",
+          "REST API",
+          "Tomcat"
+        ],
+        "icon": "fa-angular"
+      },
+      {
+        "company": "SAT Guatemala / SIECA",
+        "title": "Consultor Independiente de IT",
+        "years": "07.2012 - 12.2016",
+        "mainTech": [
+          "Desarrollador Full Stack"
+        ],
+        "technologies": [
+          "JAVA",
+          "Spring",
+          "Hibernate",
+          "Oracle DB",
+          "PL/SQL",
+          "Faces"
+        ],
+        "icon": "fa-java"
+      },
+      {
+        "company": "SAT Guatemala",
+        "title": "Analista de IT",
+        "years": "06.2009 - 07.2012",
+        "mainTech": [
+          "Desarrollador Full Stack"
+        ],
+        "technologies": [
+          "JAVA",
+          "Spring",
+          "Hibernate",
+          "Oracle DB",
+          "PL/SQL",
+          "Faces"
+        ],
+        "icon": "fa-java"
+      }
+    ]
+  }
