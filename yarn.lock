@@ -1185,6 +1185,16 @@
   dependencies:
     "@hapi/hoek" "^8.3.0"
 
+"@iconify-icons/emojione-v1@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.npmjs.org/@iconify-icons/emojione-v1/-/emojione-v1-1.1.0.tgz"
+  integrity sha512-j9vX8si/f1qu+Bs+ZuQGYQ2vPd4iLLCGg4oHjoeAjDhjENvixuL36aDdecW0U7aPoAv5pqvlEj3uD4epIqU0TA==
+
+"@iconify-icons/twemoji@^1.1.1":
+  version "1.1.1"
+  resolved "https://registry.npmjs.org/@iconify-icons/twemoji/-/twemoji-1.1.1.tgz"
+  integrity sha512-mODAYr3pySh7a1Hp/H1jOQC7aDUi8jiAg++UBNZeBwAl4zypX8kpsTP40zjoYs5Xy7RAodcd73E7R4DB2rlDZQ==
+
 "@iconify-icons/whh@^1.1.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@iconify-icons/whh/-/whh-1.1.0.tgz"

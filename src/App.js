@@ -7,6 +7,9 @@ import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import GithubCorner from 'react-github-corner';
+import { Icon } from '@iconify/react';
+import flagForGuatemala from '@iconify-icons/emojione-v1/flag-for-guatemala';
+import flagForUnitedStates from '@iconify-icons/emojione-v1/flag-for-united-states';
 
 const App = () => {
   const [foo, setFoo] = useState("bar");
@@ -68,12 +71,11 @@ const App = () => {
           }
           style={{ display: "inline" }}
         >
-          <span
-            className="iconify language-icon mr-5"
-            data-icon="twemoji-flag-for-flag-united-states"
+          <span>
+            <Icon icon={flagForUnitedStates} className="iconify language-icon mr-5"
             data-inline="false"
-            id={window.$primaryLanguageIconId}
-          ></span>
+            id={window.$primaryLanguageIconId}/>
+          </span>
         </div>
         <div
           onClick={() =>
@@ -84,12 +86,11 @@ const App = () => {
           }
           style={{ display: "inline" }}
         >
-          <span
-            className="iconify language-icon"
-            data-icon="twemoji-flag-for-flag-guatemala"
+          <span>
+            <Icon icon={flagForGuatemala} className="iconify language-icon"
             data-inline="false"
-            id={window.$secondaryLanguageIconId}
-          ></span>
+            id={window.$secondaryLanguageIconId}/>
+          </span>
         </div>
       </div>
       <About

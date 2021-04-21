@@ -4,6 +4,11 @@ import AwesomeSlider from "react-awesome-slider";
 import AwesomeSliderStyles from "../scss/light-slider.scss";
 import AwesomeSliderStyles2 from "../scss/dark-slider.scss";
 import "react-awesome-slider/dist/custom-animations/scale-out-animation.css";
+import { Icon } from "@iconify/react";
+import yellowCircle from '@iconify-icons/twemoji/yellow-circle';
+import redCircle from '@iconify-icons/twemoji/red-circle';
+import greenCircle from '@iconify-icons/twemoji/green-circle';
+
 class ProjectDetailsModal extends Component {
   render() {
     if (this.props.data) {
@@ -50,23 +55,17 @@ class ProjectDetailsModal extends Component {
           <div className="col-md-10 mx-auto" style={{ paddingBottom: "50px" }}>
             <div className="slider-tab">
               <span
-                className="iconify slider-iconfiy"
-                data-icon="emojione:red-circle"
-                data-inline="false"
-                style={{ marginLeft: "5px" }}
-              ></span>{" "}
+              ><Icon icon={redCircle} className="iconify slider-iconfiy"
+              data-inline="false"
+              style={{ marginLeft: "5px" }}/></span>{" "}
               &nbsp;{" "}
-              <span
-                className="iconify slider-iconfiy"
-                data-icon="twemoji:yellow-circle"
-                data-inline="false"
-              ></span>{" "}
+              <span> <Icon icon={yellowCircle} 
+              className="iconify slider-iconfiy"
+              data-inline="false"/></span>{" "}
               &nbsp;{" "}
-              <span
-                className="iconify slider-iconfiy"
-                data-icon="twemoji:green-circle"
-                data-inline="false"
-              ></span>
+              <span> <Icon icon={greenCircle} 
+              className="iconify slider-iconfiy"
+              data-inline="false"/></span>
             </div>
             <AwesomeSlider
               cssModule={[AwesomeSliderStyles, AwesomeSliderStyles2]}

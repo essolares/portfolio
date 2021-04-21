@@ -1,6 +1,13 @@
 import React, { useState } from "react";
 import Typical from "react-typical";
 import Switch from "react-switch";
+import { Icon } from '@iconify/react';
+//import crescentMoon from '@iconify-icons/emojione-v1/crescent-moon';
+//import sun from '@iconify-icons/emojione-v1/sun';
+import crescentMoon from '@iconify-icons/twemoji/crescent-moon';
+import sun from '@iconify-icons/twemoji/sun';
+
+
 
 const Header = (props) => {
   let titles = [];
@@ -50,9 +57,8 @@ const Header = (props) => {
               width={90}
               height={40}
               uncheckedIcon={
-                <span
-                  className="iconify"
-                  data-icon="twemoji:crescent-moon"
+                <span>
+                  <Icon icon={crescentMoon} className="iconify"
                   data-inline="false"
                   style={{
                     display: "block",
@@ -61,23 +67,20 @@ const Header = (props) => {
                     textAlign: "end",
                     marginLeft: "20px",
                     color: "#353239",
-                  }}
-                ></span>
+                  }}/>
+                </span>
               }
               checkedIcon={
-                <span
-                  className="iconify"
-                  data-icon="noto-v1:sun"
-                  data-inline="false"
-                  style={{
-                    display: "block",
-                    height: "100%",
-                    fontSize: 25,
-                    textAlign: "end",
-                    marginLeft: "10px",
-                    color: "#353239",
-                  }}
-                ></span>
+                <span><Icon icon={sun} className="iconify"
+                data-inline="false"
+                style={{
+                  display: "block",
+                  height: "100%",
+                  fontSize: 25,
+                  textAlign: "end",
+                  marginLeft: "10px",
+                  color: "#353239",
+                }}/></span>
               }
               id="icon-switch"
             />

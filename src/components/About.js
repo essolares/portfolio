@@ -3,6 +3,9 @@ import { Icon } from "@iconify/react";
 import reactIcon from "@iconify/icons-logos/react";
 import jsIcon from "@iconify/icons-logos/javascript";
 import javaIcon from '@iconify-icons/whh/java';
+import yellowCircle from '@iconify-icons/twemoji/yellow-circle';
+import redCircle from '@iconify-icons/twemoji/red-circle';
+import greenCircle from '@iconify-icons/twemoji/green-circle';
 
 
 
@@ -52,23 +55,21 @@ const About = (props) => {
             <div className="col-md-10">
               <div className="card">
                 <div className="card-header">
-                  <span
+                <span>
+                    <Icon icon={redCircle} 
                     className="iconify"
-                    data-icon="emojione:red-circle"
-                    data-inline="false"
-                  ></span>{" "}
+                    data-inline="false"/></span>{" "}
                   &nbsp;{" "}
-                  <span
+                  <span>
+                    <Icon icon={yellowCircle} 
                     className="iconify"
-                    data-icon="twemoji:yellow-circle"
-                    data-inline="false"
-                  ></span>{" "}
+                    data-inline="false"/>
+                    </span>{" "}
                   &nbsp;{" "}
-                  <span
+                  <span>
+                    <Icon icon={greenCircle} 
                     className="iconify"
-                    data-icon="twemoji:green-circle"
-                    data-inline="false"
-                  ></span>
+                    data-inline="false"/></span>
                 </div>
                 <div
                   className="card-body font-trebuchet text-justify ml-3 mr-3"
