@@ -87,7 +87,22 @@
           "name": "Wordpress",
           "class": "devicon-wordpress-plain",
           "level": "60"
-        }
+        },
+        {
+          "name": "Postgres",
+          "class": "devicon-postgresql-plain",
+          "level": "60"
+        },
+        {
+          "name": "Linux Server",
+          "class": "devicon-linux-plain",
+          "level": "60"
+        },
+      {
+        "name": "AWS",
+          "class": "devicon-amazonwebservices-original",
+          "level": "60"
+      }
       ]
     }
   }

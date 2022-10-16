@@ -1,8 +1,8 @@
 {
     "basic_info": {
       "description_header": "Hello",
-      "description": "I'm Edgar Salazar. I'm a software engineer with more than 10 years of experience designing and building tailored and customized solutions, based on customer requirements, including government and international projects.",
-      "description1": "Working on all phases of software development life cycle, implementing business solutions using client-focused and agile methodologies. Self-learner and research capability for new technologies with development logic to learn any programming language.",
+      "description": "My name is Edgar Salazar. I'm a software engineer with experience designing and building tailored and customized solutions for clients, including government and international projects. I have been involved in all phases of the software development life cycle, implementing business solutions using client-focused and agile methodologies.",
+      "description1": "I have worked extensively in the Java ecosystem with technologies including J2EE, Spring, Hibernate, JavaServer Faces, Tomcat, and JReport. I have also worked with Node.js, Express, React, AngularJS, Oracle and PL/SQL, MySQL, PHP, CodeIgniter, Android, and Objective-C on iOS.",
       "section_name": {
         "about": "About me",
         "projects": "Projects / Clients",
@@ -11,6 +11,57 @@
       }
     },
     "projects": [
+      {
+        "title": "Endpointdev",
+        "startDate": "2022",
+        "description": "Endpointdev was founded in New York City in 1995 as a full-service software consultancy. They are software developers, design thinkers, and security experts. The products and designs we produce are stable, scalable, and long-lasting. ",
+        "images": [
+          "images/portfolio/endpoint/p1.jpg",
+          "images/portfolio/endpoint/p2.jpg"
+        ],
+        "url": "https://www.endpointdev.com",
+        "technologies": [
+          {
+            "class": "devicon-java-plain",
+            "name": "Java"
+          },
+          {
+            "class": "devicon-postgresql-plain",
+            "name": "Postgres"
+          },
+          {
+            "class": "devicon-linux-plain",
+            "name": "Linux server"
+          }
+        ]
+      },
+      {
+        "title": "Transparent.ly",
+        "startDate": "2021",
+        "description": "Transparent.ly’s real-time bidding platform brings consumers and website publishers a tailored set of advertisers in less than 200 milliseconds.",
+        "images": [
+          "images/portfolio/tly/p1.jpg"
+        ],
+        "url": "https://www.transparent.ly",
+        "technologies": [
+          {
+            "class": "devicon-javascript-plain",
+            "name": "Javascript"
+          },
+          {
+            "class": "devicon-react-plain",
+            "name": "ReactJS"
+          },
+          {
+            "class": "devicon-amazonwebservices-original",
+            "name": "AWS"
+          },
+          {
+            "class": "devicon-mysql-plain",
+            "name": "Mysql"
+          }
+        ]
+      },
       {
         "title": "CreativeWorks Systems, Inc.",
         "startDate": "2012",
@@ -91,9 +142,43 @@
     ],
     "experience": [
       {
+        "company": "End Point Dev",
+        "title": "​Software Engineer",
+        "years": "3.2022 - present",
+        "mainTech": [
+          "Full Stack Developer"
+        ],
+        "technologies": [
+          "REST API",
+          "Epitrax",
+          "JAVA",
+          "JSF",
+          "Postgresql",
+          "Linux",
+          "SQL"
+        ],
+        "icon": "fa-java"
+      },
+      {
+        "company": "Transparent.ly",
+        "title": "Production Engineer​",
+        "years": "9.2021 - 3-2022",
+        "mainTech": [
+          "Production support and Front End Developer"
+        ],
+        "technologies": [
+          "REST API",
+          "ReactJS",
+          "JavaScript",
+          "AWS",
+          "Mysql"
+        ],
+        "icon": "fa-react"
+      },
+      {
         "company": "Freelance",
         "title": "​Systems Engineer Consultant",
-        "years": "1.2020 - present",
+        "years": "1.2020 - 12-2020",
         "mainTech": [
           "Front End Developer"
         ],

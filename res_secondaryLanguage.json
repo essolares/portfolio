@@ -1,8 +1,8 @@
 {
     "basic_info": {
       "description_header": "Hola",
-      "description": "Soy Edgar Salazar. Soy un ingeniero de software con más de 10 años de experiencia diseñando y construyendo soluciones personalizadas y a la medida, basadas en los requerimientos del cliente. Incluyendo proyectos gubernamentales e internacionales.",
-      "description1": "He participado en todas las faces del ciclo de vida del desarrollo de software, implementando soluciones de negocios utilizando metodologías ágiles y enfocadas en el cliente. Capacidades de auto-aprendizajee investigación para adquirir nuevas capacidades sobre cualquier lenguaje de programación.",      
+      "description": "Mi nombre es Édgar Salazar, soy ingeniero de software con más de 10 años de experiencia diseñando y construyendo soluciones personalizadas y a la medida, incluidos proyectos gubernamentales e internacionales. He participado en todas las fases del ciclo de vida del desarrollo de software, implementando soluciones de negocio utilizando metodologías ágiles y enfocadas en el cliente.",
+      "description1": "He trabajado extensamente en el ecosistema de Java con tecnologías que incluyen J2EE, Spring, Hibernate, JavaServer Faces, Tomcat y JReport. También he trabajado con Node.js, Express, React, AngularJS, Oracle y PL/SQL, MySQL, PHP, CodeIgniter, Android y Objective-C en iOS.",      
       "section_name": {
         "about": "Acerca de mi",
         "projects": "Proyectos / Clientes",
@@ -11,6 +11,57 @@
       }
     },
     "projects": [
+      {
+        "title": "Endpointdev",
+        "startDate": "2022",
+        "description": "Endpointdev se fundo en la ciudad de Nueva Yourk en 1995 como una consultora de software de servicio completo. Son desarrolladores de software, pensadores de diseño y expertos en seguridad. Los productos y diseños que producimos son estables, escalables y duraderos. ",
+        "images": [
+          "images/portfolio/endpoint/p1.jpg",
+          "images/portfolio/endpoint/p2.jpg"
+        ],
+        "url": "https://www.endpointdev.com",
+        "technologies": [
+          {
+            "class": "devicon-java-plain",
+            "name": "Java"
+          },
+          {
+            "class": "devicon-postgresql-plain",
+            "name": "Postgres"
+          },
+          {
+            "class": "devicon-linux-plain",
+            "name": "Linux server"
+          }
+        ]
+      },
+      {
+        "title": "Transparent.ly",
+        "startDate": "2021",
+        "description": "Transparent.ly’s cuenta con una plataforma de ofertas en tiempo real brinda a los clientes y editores de sitios web un conjunto personalizado de anunciantes en menos de 200 milisegundos.",
+        "images": [
+          "images/portfolio/tly/p1.jpg"
+        ],
+        "url": "https://www.transparent.ly",
+        "technologies": [
+          {
+            "class": "devicon-javascript-plain",
+            "name": "Javascript"
+          },
+          {
+            "class": "devicon-react-plain",
+            "name": "ReactJS"
+          },
+          {
+            "class": "devicon-amazonwebservices-original",
+            "name": "AWS"
+          },
+          {
+            "class": "devicon-mysql-plain",
+            "name": "Mysql"
+          }
+        ]
+      },
       {
         "title": "CreativeWorks Systems, Inc.",
         "startDate": "2012",
@@ -91,9 +142,43 @@
     ],
     "experience": [
       {
+        "company": "End Point Dev",
+        "title": "​Software Engineer",
+        "years": "3.2022 - present",
+        "mainTech": [
+          "Desarrollador Full Stack"
+        ],
+        "technologies": [
+          "REST API",
+          "Epitrax",
+          "JAVA",
+          "JSF",
+          "Postgresql",
+          "Linux",
+          "SQL"
+        ],
+        "icon": "fa-java"
+      },
+      {
+        "company": "Transparent.ly",
+        "title": "Production Engineer​",
+        "years": "9.2021 - 3-2022",
+        "mainTech": [
+          "Soporte de producción y Desarrollador FrontEnd"
+        ],
+        "technologies": [
+          "REST API",
+          "ReactJS",
+          "JavaScript",
+          "AWS",
+          "Mysql"
+        ],
+        "icon": "fa-react"
+      },
+      {
         "company": "Freelance",
         "title": "​Consultor Sistemas Informaticos",
-        "years": "1.2020 - present",
+        "years": "1.2020 - 12-2020",
         "mainTech": [
           "Desarrollador FrontEnd"
         ],
