@@ -23,7 +23,7 @@ const About = (props) => {
   return (
     <section id="about">
       <div className="col-md-12">
-        <h1 style={{ color: "#437FC7" }}>
+        <h1 style={{ color: "#164990" }}>
           <span>{sectionName}</span>
         </h1>
         <div className="row center mx-auto mb-5">

@@ -12,7 +12,7 @@ import flagForGuatemala from '@iconify-icons/emojione-v1/flag-for-guatemala';
 import flagForUnitedStates from '@iconify-icons/emojione-v1/flag-for-united-states';
 
 const App = () => {
-  const [foo, setFoo] = useState("bar");
+  //const [foo, setFoo] = useState("bar");
   const [resumeData, setResumeData] = useState({});
   const [sharedData, setSharedData] = useState({});
 

@@ -52,7 +52,7 @@ const Header = (props) => {
               checked={checked}
               onChange={onThemeSwitchChange}
               offColor="#0B0C10"
-              onColor="#437FC7"
+              onColor="#164990"
               className="react-switch mx-auto"
               width={90}
               height={40}

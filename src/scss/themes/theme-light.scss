@@ -2,27 +2,27 @@ body[data-theme="light"] {
     @import '../src/scss/light-slider.scss';
  
     .slider-tab {
-       background-color: #437FC7;
+       background-color: #164990;
     }
     .corner-logo {
         svg {
-        fill: #437FC7 !important;
+        fill: #164990 !important;
            .octo-banner{
               fill:#EDF6FF;
            }
         }
      }
      .skill-icon {
-        color:#6DAFFE;
+        color:#d7dce3;
      }
 
      footer a,
      footer a:visited {
-         color: #6DAFFE;
+         color: #d7dce3;
      }
      
      footer a:hover,
      footer a:focus {
-         color: #6DAFFE;
+         color: #d7dce3;
      }
 }
